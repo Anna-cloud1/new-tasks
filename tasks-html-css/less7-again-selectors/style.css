@@ -42,7 +42,7 @@ body > div:nth-of-type(3) > p:nth-of-type(1) {
     background-color: yellow;
 }
 
-div > p:last-of-type {
+.par {
     border: 5px solid white;
 }
 
