@@ -18,7 +18,7 @@ p {
     background-color: yellow;
 }
 
-input {
+input[type="password"], input[type="text"] {
     border: 3px solid red;
 }
 
@@ -30,11 +30,11 @@ input {
     border: 2px solid blue;
 }
 
-div > p:last-of-type {
+div > p {
     font-size: 25px;
 }
 
-[type="text"] {
+input[type="text"] {
     background-color: gray;
 }
 
