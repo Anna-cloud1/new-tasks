@@ -23,7 +23,7 @@
 }
 
 
-h4 > code {
+.already-learned code {
     border: 2px solid blue;
 }
 
