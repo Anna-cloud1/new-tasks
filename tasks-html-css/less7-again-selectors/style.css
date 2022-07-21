@@ -30,7 +30,7 @@ input {
     border: 2px solid blue;
 }
 
-p ~ div {
+div > p:last-of-type {
     font-size: 25px;
 }
 
@@ -38,11 +38,11 @@ p ~ div {
     background-color: gray;
 }
 
-.third-div {
+body > div:nth-of-type(3) > p:nth-of-type(1) {
     background-color: yellow;
 }
 
-.sec-par {
+div > p:last-of-type {
     border: 5px solid white;
 }
 
