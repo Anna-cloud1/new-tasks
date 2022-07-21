@@ -14,7 +14,8 @@ li:last-child > span{
 
 
 li:nth-child(even) {
-margin-left: 16px;
+
+padding-left: 16px;
 
 }
 
