@@ -1,6 +1,11 @@
 * {
-  margin: 50px;
+  margin: 20px;
   box-sizing: border-box;
+}
+
+div {
+    padding: 45px;
+    margin: 5px;
 }
 
 .rectangle {
@@ -8,8 +13,7 @@
   width: auto;
   background-color: blue;
   border: 2px solid black;
-  padding: 50px;
-  margin: 50px 50px 50px 50px;
+ 
 }
 
 .rectangle2 {
@@ -17,8 +21,7 @@
   width: auto;
   background-color: yellow;
   border: 2px solid black;
-  padding: 50px; 
-  margin: 50px 50px 50px 50px;
+ 
 }
 
 .rectangle3 {
@@ -26,8 +29,7 @@
   width: auto;
   background-color: green;
   border: 2px solid black;
-  padding: 50px; 
-  margin: 50px 50px 50px 50px;
+ 
 }
 
 .rectangle4 {
@@ -35,6 +37,5 @@
   width: auto;
   background-color: pink;
   border: 2px solid black;
-  padding: 50px; 
-  margin: 50px 50px 50px 50px;
+  
 }
