@@ -1,13 +1,13 @@
 .rectangle {
-    width: auto;
-    height: auto;
+    width: 1250px;
+    height: 312;
     border: 2px solid black;
     background-color: blue;
     margin-top: 50px;
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 45px;
-    padding: 60px;
+    padding: 50px;
     
 }
 
