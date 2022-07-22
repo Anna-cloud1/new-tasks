@@ -1,11 +1,11 @@
 * {
-  margin: 25px 25px;
+  margin: 50;
+  
  
 }
 
 div {
-    padding: 50px;
-    margin: 0px;
+  
     
 }
 
@@ -14,7 +14,8 @@ div {
   width: auto;
   background-color: blue;
   border: 2px solid black;
- 
+ padding: 25px;
+    margin: 25px;
 }
 
 .rectangle2 {
@@ -22,7 +23,9 @@ div {
   width: auto;
   background-color: yellow;
   border: 2px solid black;
- 
+ padding: 25px;
+    margin: 25px;
+
 }
 
 .rectangle3 {
@@ -30,6 +33,9 @@ div {
   width: auto;
   background-color: green;
   border: 2px solid black;
+  padding: 25px;
+    margin: 25px;
+
  
 }
 
@@ -38,5 +44,8 @@ div {
   width: auto;
   background-color: pink;
   border: 2px solid black;
+  padding: 40px;
+    margin: 10px;
+
   
 }
