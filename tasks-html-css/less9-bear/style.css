@@ -3,28 +3,24 @@
     box-sizing: border-box;
 }
 
-.header > .navigation {
+.header > .navigation > .nav-list{
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
-    position: fixed;
+    margin: 0%;
+     position: fixed;
     z-index: 100; 
 }
 
-.nav-list {
-    height: 40px;
-    margin: 0%;
-  position: relative; 
-  list-style-type: none; 
-}
-
-
 .nav-item {
+list-style-type: none;
  float: left;
  margin-left: 16px;
  color: white;
  line-height: 2.15;
 }
+
+
 
 .content {
     background-color: beige;
