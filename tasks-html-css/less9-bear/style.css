@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.header > .navigation {
+.header{
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
@@ -10,6 +10,13 @@
   position: fixed;
 }
 
+.navigation {
+    background-color: darkturquoise;
+  height: 40px;
+  width: 100%;
+  margin: 0%;
+   position: relative;
+}
 
 .nav-list {
   position: fixed;
