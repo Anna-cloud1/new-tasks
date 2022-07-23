@@ -8,6 +8,7 @@
   width: 100%;
   margin: 0%;
   position: fixed;
+  z-index: 1;
 }
 
 .navigation {
@@ -15,15 +16,17 @@
   height: 40px;
   width: 100%;
   margin: 0%;
-   position: relative;
+   
 }
 
 .nav-list {
+  
   position: fixed;
   margin: 0%;
 }
 
 .nav-item {
+  
   height: 40px;
   list-style-type: none;
   float: left;
