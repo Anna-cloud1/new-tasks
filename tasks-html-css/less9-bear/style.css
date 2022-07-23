@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-.header > .navigation > .nav-list{
+.header > .navigation {
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
@@ -22,7 +22,7 @@
  float: left;
  margin-left: 16px;
  color: white;
- line-height: 2.15;
+ line-height: 0.30;
 }
 
 .content {
