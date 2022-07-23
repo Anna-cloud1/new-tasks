@@ -2,13 +2,19 @@
   box-sizing: border-box;
 }
 
-.header > .navigation > .nav-list {
+.header > .navigation {
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
   margin: 0%;
   position: fixed;
+  z-index: 2;
+}
+
+.nav-list {
+  position: fixed;
   z-index: 1;
+  margin: 0%;
 }
 
 .nav-item {
@@ -17,7 +23,7 @@
   float: left;
   margin-left: 16px;
   color: white;
-  line-height: 2.50;
+  line-height: 2.5;
 }
 
 .content {
