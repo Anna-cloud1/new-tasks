@@ -16,27 +16,12 @@
   list-style-type: none; 
 }
 
-.nav-item:nth-child(1) {
 
-right: 0%;
-color: white;
-line-height: 2.15;
-}
-
-.nav-item:nth-child(2) {
-    position: relative;
-left: 62px;
-color: white;
-line-height: 2.15; 
-bottom: 34px;
-}
-
-.nav-item:nth-child(3) {
-    position: relative;
-left: 140px;
-color: white;
-line-height: 4.30px; 
-bottom: 53px;
+.nav-item {
+ float: left;
+ margin-left: 2%;
+ color: white;
+ line-height: 2.15;
 }
 
 .content {
