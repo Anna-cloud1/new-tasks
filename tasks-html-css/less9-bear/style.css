@@ -19,9 +19,8 @@
 
 
 .nav-item {
-    font-size: 16px;
  float: left;
- margin-left: 2%;
+ margin-left: 16px;
  color: white;
  line-height: 2.15;
 }
