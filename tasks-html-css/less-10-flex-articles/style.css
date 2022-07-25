@@ -1,5 +1,5 @@
 body {
-  box-sizing: border-box;
+  display: block;
 }
 
 header {
@@ -11,47 +11,17 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  
 }
-
 
 .article {
   
-  margin: 8px;
+   margin: 8px;
   padding: 16px;
   background-color: bisque;
-height: auto;
- flex-shrink: 0;
+  height: auto;
+  flex-shrink: 3;
   flex-grow: 1;
-  flex-basis: 300px;
+flex-basis: 300px;
 
-  
 }
-
-.article:nth-child(1) {
-  flex-wrap: wrap;
-  flex-basis: 240px;
-}
-
-.article:nth-child(2) {
-  flex-wrap: wrap;
-  flex-basis: 240px;
-}
-
-.article:nth-child(3) {
-  flex-wrap: wrap;
-  flex-basis: 240px;
-}
-
-.article:nth-child(4) {
-  flex-wrap: wrap;
-  flex-basis: 240px;
-}
-
-
-.article:nth-child(5) {
-  flex-wrap: wrap;
-  flex-basis: 240px;
-}
-
 
