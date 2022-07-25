@@ -20,7 +20,7 @@ flex-wrap: wrap;
   background-color: bisque;
   flex-basis: 240px;
   height: auto;
-   flex-shrink: 3;
+   flex-shrink: 2;
    flex-grow: 1;
 }
 
