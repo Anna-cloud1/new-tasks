@@ -18,9 +18,9 @@ flex-wrap: wrap;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-basis: 260px;
+  flex-basis: 240px;
   height: auto;
-   flex-shrink: 1;
-   flex-grow: 0;
+   flex-shrink: 3;
+   flex-grow: 1;
 }
 
