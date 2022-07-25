@@ -18,13 +18,15 @@
 
 .navigation {
     margin:0;
-    padding: 2%;
-    display: flex;
+     display: flex;
     list-style-type: none;
+    padding: 0%;
+    
 }
 
 .navigation_item {
-    margin-right: 10px;
+    margin-left: 16px;
+    
 }
 
 .footer_text {
@@ -65,7 +67,12 @@ align-items: center;
 }
 
 .header2 {
+   
     display: flex;
    align-items: center; 
    justify-content: center;
+}
+
+ul {
+    margin: 0px;
 }
