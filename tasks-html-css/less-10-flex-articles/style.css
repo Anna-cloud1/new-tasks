@@ -14,14 +14,13 @@ header {
 }
 
 .article {
-  
+
    margin: 8px;
   padding: 16px;
   background-color: bisque;
-  height: auto;
   flex-shrink: 3;
   flex-grow: 1;
-flex-basis: 300px;
+flex-basis: 240px;
 
 }
 
