@@ -18,12 +18,11 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-<<<<<<< HEAD
+
   flex-basis: 240px;
  flex-shrink: 0;
   flex-grow: 1;
-=======
   flex-basis: 300px;
->>>>>>> 2c89cbb47e636e6a2f3f528e491fcd2fc8bb4f84
+
   
 }
