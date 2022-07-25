@@ -8,16 +8,19 @@ header {
 
 .articles-list {
  display: flex;
- flex-wrap: wrap;
+flex-wrap: wrap;
 }
+
+
+
 .article {
-  
+  flex-wrap: wrap;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-basis: 300px;
+  flex-basis: 240px;
   height: auto;
-   flex-shrink: 0;
+   flex-shrink: 1;
    flex-grow: 0;
 }
 
