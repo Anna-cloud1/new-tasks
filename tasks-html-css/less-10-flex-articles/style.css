@@ -1,31 +1,25 @@
 body {
-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
-
-
 header {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .articles-list {
- display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-
 
 .article {
   flex-wrap: wrap;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-basis: 250px;
+  flex-basis: 240px;
 
-  
-   flex-shrink: 0;
-   flex-grow: 1;
+  flex-shrink: 0;
+  flex-grow: 1;
 }
-
