@@ -27,7 +27,7 @@ background-color: yellow;
 
 .navigation_item {
 margin-left: 16px;
-margin-top: 1px;
+margin-top: 0px;
 }
 
 .content {
@@ -41,6 +41,10 @@ flex-grow: 1;
 background-color: pink;
 justify-content: center;
 align-items: center;
+}
+
+.i_can {
+   margin-bottom: 0px;
 }
 
 .news {
