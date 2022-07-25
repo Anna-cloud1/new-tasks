@@ -41,11 +41,11 @@ flex-grow: 1;
 background-color: pink;
 justify-content: center;
 align-items: center;
-margin-bottom: 0px;
+margin-bottom: 1px;
 }
 
 .i_can {
- margin-bottom: 7px;   
+ margin-bottom: 10px;   
 }
 
 .news {
