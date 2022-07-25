@@ -27,7 +27,7 @@ background-color: yellow;
 
 .navigation_item {
 margin-left: 16px;
-margin-top: 0px;
+margin-bottom: 1px;
 }
 
 .content {
@@ -43,9 +43,7 @@ justify-content: center;
 align-items: center;
 }
 
-.i_can {
-   margin-bottom: 0px;
-}
+
 
 .news {
     display: flex;
@@ -58,12 +56,12 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 16px;
-    margin-bottom: 11px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .navigation2 {
-margin-top: 10px;
+margin-top: 0px;
 }
 
 .news_item {
@@ -83,5 +81,5 @@ margin-top: 10px;
 .footer_text {
     display: flex;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
