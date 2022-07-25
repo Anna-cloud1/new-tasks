@@ -16,12 +16,11 @@ header {
 
 
 .article {
-  flex-wrap: wrap;
+  
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-
-
+height: auto;
  flex-shrink: 0;
   flex-grow: 1;
   flex-basis: 300px;
