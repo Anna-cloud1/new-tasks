@@ -44,7 +44,9 @@ align-items: center;
 margin-bottom: 0px;
 }
 
-
+.i_can {
+ margin-bottom: 7px;   
+}
 
 .news {
     display: flex;
