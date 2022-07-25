@@ -17,8 +17,6 @@ header {
   padding: 16px;
   background-color: bisque;
   flex-basis: 240px;
-
-
-  flex-shrink: 0;
+ flex-shrink: 0;
   flex-grow: 1;
 }
