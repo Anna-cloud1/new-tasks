@@ -1,0 +1,21 @@
+
+
+div > div {
+height: 100px;
+width: 100px;
+background-color: coral;
+
+}
+
+.not-displayed {
+    display: none;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
