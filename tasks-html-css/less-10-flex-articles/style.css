@@ -1,3 +1,7 @@
+ body {
+ display: flex;
+flex-direction: column;
+ }
 
 header {
     display: flex;
@@ -7,13 +11,13 @@ header {
 
 .articles-list {
  display: flex;
+ align-items: ;
 flex-wrap: wrap;
 }
 
 
 
 .article {
-  flex-wrap: wrap;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
