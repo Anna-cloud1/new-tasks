@@ -3,12 +3,13 @@
 }
 
 .gallery{
-    display: flex;
-    
+     display: flex;
+    overflow-x: auto;
 }
 
 .thumb {
-    width: auto;
+  
+     width: auto;
     height: auto;
     margin: 8px;
     cursor: all-scroll;
