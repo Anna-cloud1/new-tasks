@@ -1,50 +1,55 @@
+body {
+    margin: 16px;
+}
+
 * {
   box-sizing: border-box;
 }
-.dropdown {
-  margin: 16px;
-  /* background-color: darkgreen; */
-  color: white;
-  display: inline-block;
-  padding: 8px;
-  opacity: 0.8;
-}
 
-.menu-button {
-  padding: 16px;
-  position: relative;
+.dropdown {
+ position: relative;
+ display: inline-block;
+ background-color: forestgreen;
   color: white;
-  display: flex;
-  padding: 8px;
-  cursor: pointer;
-  background-color: darkgreen;
+  padding: 16px;
   opacity: 0.8;
   font-size: 16px;
+  cursor: pointer;
 }
+/* .menu-button {
+  background-color: forestgreen;
+  color: white;
+  padding: 16px;
+  opacity: 0.8;
+  font-size: 16px;
+  cursor: pointer;
+} */
 
 .menu-list {
   position: absolute;
-  color: black;
-  background-color: lightcyan;
+  top:51px;
+  left: 0px;
   margin: 0;
   padding: 0;
-  display: none;
+  background-color: lightcyan;
   min-width: 120px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  color: black;
   z-index: 1;
+  display: none;
 }
 
 .menu-item {
-  list-style-type: none;
-  padding: 16px;
+    padding: 16px;
 }
+
 
 .dropdown:hover .menu-list {
-  display: block;
-  background-color: ghostwhite;
+display: block;
+
 }
 
-.dropdown:hover .menu-button {
-background-color: darkgreen;
-  opacity: 1;
+body:hover .dropdown {
+   opacity: 1; 
 }
