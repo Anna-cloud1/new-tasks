@@ -1,0 +1,11 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thumb {
+    margin: 8px;
+    cursor: all-scroll;
+}
