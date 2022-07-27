@@ -1,11 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 .gallery{
     display: flex;
-    justify-content: center;
-    align-items: center;
     
 }
 
 .thumb {
+    width: auto;
+    height: auto;
     margin: 8px;
     cursor: all-scroll;
 }
