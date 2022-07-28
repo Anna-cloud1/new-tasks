@@ -15,9 +15,9 @@ display: flex;
   text-transform: uppercase;
 }
 
-/* p {
+p {
   line-height: 28px;
-} */
+}
 
 .technology {
   font-weight: 900;
