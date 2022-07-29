@@ -3,14 +3,11 @@
 }
 
 
-.gallery {
 
-    
-}
 .image {
     display: inline-block;
-    align-items: center;
-    margin: 14px;
+    position: relative;
+    margin: 16px;
     width: 200px;
     height: 200px;
     border: 1px dotted grey;
