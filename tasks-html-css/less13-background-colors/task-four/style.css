@@ -19,11 +19,11 @@
 }
 
 .image:nth-child(2) {
-   margin-left: 4px; 
+   margin-left: 6px; 
    margin-right: 3px;
 }
 
 .image:nth-child(3) {
-   margin-left: 16px; 
+   margin-left: 20px; 
    
 }
