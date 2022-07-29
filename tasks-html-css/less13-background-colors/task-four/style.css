@@ -1,0 +1,12 @@
+.image {
+    display: inline-block;
+    align-items: center;
+    margin: 16px;
+    width: 200px;
+    height: 200px;
+    border: 1px dotted grey;
+    background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+    
+}
