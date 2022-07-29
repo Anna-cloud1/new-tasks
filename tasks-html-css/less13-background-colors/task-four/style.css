@@ -3,10 +3,12 @@
    
 }
 
-
+.gallery {
+   display: flex;
+}
 
 .image {
-    display: inline-block;
+    display: inline;
     position: relative;
     margin: 16px;
     width: 200px;
@@ -16,14 +18,4 @@
      background-size: contain;
      background-repeat: no-repeat;
     
-}
-
-.image:nth-child(2) {
-   margin-left: 11px; 
-   margin-right: 3px;
-}
-
-.image:nth-child(3) {
-   margin-left: 24px; 
-   
 }
