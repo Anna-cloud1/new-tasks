@@ -20,7 +20,7 @@
     background-color: bisque;
     text-transform: uppercase;
     font-size: 12px;
-    top: calc(50% -25px);
+    top: calc(50% - 25px);
     left: calc(50% - 100px);
     opacity: 0.5;
     cursor: pointer;
