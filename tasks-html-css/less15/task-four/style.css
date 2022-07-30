@@ -1,33 +1,32 @@
-* {
-  box-sizing: border-box;
+.image {
+    height: auto;
+    max-width: 100%;
 }
 
-.image {
-  display: block;
-  margin: 0 auto 0;
-  max-width: 100%;
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .image-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  background-color: bisque;
-  text-transform: uppercase;
-  font-weight:700;
-  font-size: 12px;
-  opacity: 0.5;
-  width: 200px;
-  height: 50px;
-  bottom: 69%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  text-align: center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: bisque;
+    text-transform: uppercase;
+    font-size: 12px;
+    top: calc(50% -25px);
+    left: calc(50% - 100px);
+    opacity: 0.5;
+    cursor: pointer;
+
 }
 
-
 .image-button:hover {
- opacity: 1;   
+    opacity: 1;
 }
