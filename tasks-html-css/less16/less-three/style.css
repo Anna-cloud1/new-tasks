@@ -1,4 +1,6 @@
-
+body {
+    margin: 0px;
+}
      
      input[type="checkbox"] {
         visibility: hidden;
@@ -19,7 +21,7 @@
        .checkbox {
         display: block;
         margin: 16px;
-        margin-left: 0%;
+        margin-left: 16px;
         padding-left: 35px;
         position: relative;
          font-size: 24px;
