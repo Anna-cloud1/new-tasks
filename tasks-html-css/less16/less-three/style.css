@@ -1,6 +1,6 @@
 body {
     line-height: 1.10;
-    margin: 16px;
+    margin: 0px;
 }
 
      input[type="checkbox"] {
@@ -20,10 +20,11 @@ body {
        }
        
        .checkbox { 
-        display: inline-block;
+        display: block;
+        margin: 16px;
         padding-left: 35px;
         position: relative;
-         font-size: 24px;
+        font-size: 24px;
        }
 
        .checkbox input:checked + .checkmark {
