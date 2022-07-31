@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    line-height: 1.10;
-    margin: 0px;
+  
 }
 
      input[type="checkbox"] {
@@ -11,7 +10,6 @@
        }
 
        .checkmark {
-        display: inline-block;
         width: 25px;
         height: 25px;
         background-color: #d3d3d3;
