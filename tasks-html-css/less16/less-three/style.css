@@ -16,9 +16,8 @@
        }
        
        .checkbox {
-        display: block;
+        display: inline-block;
         margin: 16px;
-        margin-left: 8px;
         padding-left: 35px;
         position: relative;
          font-size: 24px;
