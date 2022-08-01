@@ -50,7 +50,7 @@ display: inline-block;
 .form-input:invalid {
 
 outline: 3px solid #ff0000;
-outline-offset: -3px;
+outline-offset: -4px;
 }
 
 .submit-button {
