@@ -39,7 +39,7 @@ display: inline-block;
   border-radius: 4px;
   border: 1px solid #808080;
   padding: 4px;
- outline: none;
+  outline: none;
 }
 
 .form-label {
@@ -49,8 +49,8 @@ display: inline-block;
 
 .form-input:invalid {
 
-outline: 3px solid #ff0000;
-outline-offset: -4px;
+outline: 2px solid #ff0000;
+outline-offset: -2px;
 }
 
 .submit-button {
