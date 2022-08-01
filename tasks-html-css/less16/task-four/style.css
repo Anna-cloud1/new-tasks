@@ -2,14 +2,15 @@
   box-sizing: border-box;
 }
 
-body {
+.page {
   background-color: bisque;
   background-size: 100%;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+
 }
 
-.page {
+.login-form {
   width: 300px;
   position: absolute;
   left: 0;
@@ -17,12 +18,6 @@ body {
   margin: 0 auto;
   top: 50%;
   transform: translate(0, -50%);
-}
-
-.login-form {
-  width: 300px;
-  height: auto;
-  position: relative;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   background-color: aqua;
@@ -36,9 +31,9 @@ body {
 }
 
 .form-input {
-  margin: 8px;
-  margin-top: 0;
-  margin-left: 0;
+  /* margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 0; */
   width: 100%;
   height: 32px;
   border: 1px solid #808080;
@@ -49,8 +44,8 @@ body {
 
 .form-label {
  display: block;
- margin: 4px;   
- margin-left: 0;
+ margin-bottom: 4px;   
+ 
 }
 
 .form-input:invalid {
@@ -59,7 +54,7 @@ body {
 }
 
 .submit-button {
-  display: inline;
+
   width: 100%;
   height: 32px;
   margin-top: 16px;
@@ -67,4 +62,10 @@ body {
   border-radius: 4px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.form-control {
+  margin-bottom: 8px;
+  display: block;
+ 
 }
