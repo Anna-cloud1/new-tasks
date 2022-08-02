@@ -1,44 +1,139 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+td {
 
-td, th {
-    font-weight: 500;
-    width: 50px;
-    height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
 }
 
 table {
-    margin: 16px;
+ margin: 16px;
 }
 
-/* .white {
-    background-color: white;
+tr:nth-child(2) td:nth-child(3) {
+  background-color: black ;
+}
+tr:nth-child(2) td:nth-child(5) {
+  background-color: black ;
+}
+tr:nth-child(2) td:nth-child(7) {
+  background-color: black ;
+}
+tr:nth-child(2) td:nth-child(9) {
+  background-color: black ;
 }
 
-.black {
-    background-color: black;
-} */
 
 
-table{
+tr:nth-child(3) td:nth-child(2)  {
+  background-color: black ;
+}
+tr:nth-child(3) td:nth-child(4) {
+  background-color: black ;
+}
+tr:nth-child(3) td:nth-child(6) {
+  background-color: black ;
+}
+tr:nth-child(3) td:nth-child(8) {
+  background-color: black ;
+}
+
+
+tr:nth-child(4) td:nth-child(3) {
+  background-color: black ;
+}
+tr:nth-child(4) td:nth-child(5) {
+  background-color: black ;
+}
+tr:nth-child(4) td:nth-child(7) {
+  background-color: black ;
+}
+tr:nth-child(4) td:nth-child(9) {
+  background-color: black ;
+}
+
+
+tr:nth-child(5) td:nth-child(2)  {
+  background-color: black ;
+}
+tr:nth-child(5) td:nth-child(4) {
+  background-color: black ;
+}
+tr:nth-child(5) td:nth-child(6) {
+  background-color: black ;
+}
+tr:nth-child(5) td:nth-child(8) {
+  background-color: black ;
+}
+
+
+tr:nth-child(6) td:nth-child(3) {
+  background-color: black ;
+}
+tr:nth-child(6) td:nth-child(5) {
+  background-color: black ;
+}
+tr:nth-child(6) td:nth-child(7) {
+  background-color: black ;
+}
+tr:nth-child(6) td:nth-child(9) {
+  background-color: black ;
+}
+
+
+tr:nth-child(7) td:nth-child(2)  {
+  background-color: black ;
+}
+tr:nth-child(7) td:nth-child(4) {
+  background-color: black ;
+}
+tr:nth-child(7) td:nth-child(6) {
+  background-color: black ;
+}
+tr:nth-child(7) td:nth-child(8) {
+  background-color: black ;
+}
+
+
+
+tr:nth-child(8) td:nth-child(3) {
+  background-color: black ;
+}
+tr:nth-child(8) td:nth-child(5) {
+  background-color: black ;
+}
+tr:nth-child(8) td:nth-child(7) {
+  background-color: black ;
+}
+tr:nth-child(8) td:nth-child(9) {
+  background-color: black ;
+}
+
+
+
+tr:nth-child(9) td:nth-child(2)  {
+  background-color: black ;
+}
+tr:nth-child(9) td:nth-child(4) {
+  background-color: black ;
+}
+tr:nth-child(9) td:nth-child(6) {
+  background-color: black ;
+}
+tr:nth-child(9) td:nth-child(8) {
+  background-color: black ;
+}
+
+table, td {
 border: 1px solid black;
-
-}
-
-tr:nth-child(even) > td:nth-last-child(2), tr:nth-child(even) > td:nth-last-child(4), tr:nth-child(even) > td:nth-last-child(6), tr:nth-child(even) > td:nth-last-child(8) {
-    background-color: black;
-     outline: 1px solid #000
+border-collapse: collapse;
 }
 
 
-tr:nth-last-child(odd) > td:nth-last-child(3), tr:nth-last-child(odd) > td:nth-last-child(5), tr:nth-last-child(odd) > td:nth-last-child(7), tr:nth-last-child(odd) > td:nth-last-child(9) {
-    background-color: black;
-     outline: 1px solid #000
-}
-
-
-tr:nth-child(odd) > td:nth-child(9) {
-  
+.no-border {
+    border: none;
+    background-color: white;
 }
