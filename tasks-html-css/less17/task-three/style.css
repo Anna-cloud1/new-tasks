@@ -8,6 +8,7 @@ td, th {
 }
 
 table {
+    text-align: center;
     margin: 16px;
 }
 
@@ -20,7 +21,12 @@ table {
 }
 
 
-table, td {
+table {
 border: 1px solid black;
 border-collapse: collapse;
+}
+
+.white:nth-child(odd), .white:nth-child(even) {
+    outline: 1px solid black;
+    outline-offset: -1px;
 }
