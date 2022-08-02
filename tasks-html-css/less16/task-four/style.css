@@ -44,8 +44,7 @@ body {
 }
 
 .form-input:invalid {
-  outline: 3px solid #ff0000;
-  outline-offset: -2px;
+  border: 3px solid #ff0000;
 }
 
 .submit-button {
